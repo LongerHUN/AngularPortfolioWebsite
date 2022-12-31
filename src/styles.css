@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+body {
+    background-color: #030200;
+    color: #F8F8F8;
+    font-family: 'Sen', sans-serif;
+    font-size: 22px;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+}
+
+.active {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
+}
+
+
+
+.prodevicons {
+    font-size: 36px;
+    padding: 15px 10px 15px 10px;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: inset 0px -5px 0px 0px #23c1cb;
+}
+
+h1 {
+    font-size: 38px;
+    cursor: default;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-weight: bold;
+    cursor: default;
+
+}
+
+h2:hover {
+    text-shadow: var(--shadow);
+    cursor: default;
+}
+
+a[href] {
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

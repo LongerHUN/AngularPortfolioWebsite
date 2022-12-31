@@ -1,0 +1,117 @@
+#spinName::after {
+    content: "";
+    animation: spinName 4s linear forwards;
+}
+
+@keyframes spinName {
+    0% {
+        content: "A@#@#&#@#@#";
+        text-shadow: none;
+    }
+
+    10% {
+        content: "Al#@#@#@#@#";
+        text-shadow: none;
+    }
+
+    15% {
+        content: "Ale&#@#@#&#";
+        text-shadow: none;
+    }
+
+    20% {
+        content: "Alex#@#@#@#";
+        text-shadow: none;
+    }
+
+    30% {
+        content: "Alex A@#&#@#";
+        text-shadow: none;
+    }
+
+    40% {
+        content: "Alex Asz#@#@&";
+        text-shadow: none;
+    }
+
+    50% {
+        content: "Alex Aszt&#@#";
+        text-shadow: none;
+    }
+
+    60% {
+        content: "Alex Aszta#@#";
+        text-shadow: none;
+    }
+
+    70% {
+        content: "Alex Asztal@&";
+        text-shadow: none;
+    }
+
+    80% {
+        content: "Alex Asztalo#";
+        text-shadow: none;
+    }
+
+    90% {
+        content: "Alex Asztalos";
+        text-shadow: none;
+    }
+
+    100% {
+        content: "Alex Asztalos";
+        text-shadow: var(--shadow);
+    }
+}
+
+#junior::after {
+    content: "";
+    animation: spinJobs 4s linear forwards;
+}
+
+@keyframes spinJobs {
+    0% {
+        content: "Joiner";
+        text-shadow: none;
+    }
+
+    20% {
+        content: "Upholsterer";
+        text-shadow: none;
+    }
+
+    40% {
+        content: "Commissioner";
+        text-shadow: none;
+    }
+
+    60% {
+        content: "Package delivery";
+        text-shadow: none;
+    }
+
+    80% {
+        content: "Truck loader";
+        text-shadow: none;
+    }
+
+    100% {
+        content: "Junior FrontEnd Developer";
+        text-shadow: var(--shadow);
+    }
+}
+
+/*Skills*/
+.devicons {
+    font-family: "devicon";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 60px;
+}
+
+.skill-title>p:last-of-type {
+    font-weight: bold;
+}
