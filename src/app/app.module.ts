@@ -8,6 +8,8 @@ import { FrontendmentornfcComponent } from './frontendmentornfc/frontendmentornf
 import { FrontendmentoripcComponent } from './frontendmentoripc/frontendmentoripc.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PageProgressComponent } from './progressbar/progressbar';
+import { AngularAllInOneComponent } from './angular-all-in-one/angular-all-in-one.component';
+import { PortfolioWebSiteComponent } from './portfolio-web-site/portfolio-web-site.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { PageProgressComponent } from './progressbar/progressbar';
     FrontendmentornfcComponent,
     FrontendmentoripcComponent,
     NavbarComponent,
-    PageProgressComponent
+    PageProgressComponent,
+    AngularAllInOneComponent,
+    PortfolioWebSiteComponent
   ],
   imports: [
     BrowserModule,
